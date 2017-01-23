@@ -11,7 +11,7 @@
     "should": "^11.1.2"
   },
   "scripts": {
-    "test": "mocha ./specs/*spec.js"
+    "test": "mocha specs --recursive"
   },
   "repository": {
     "type": "git",
