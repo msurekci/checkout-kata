@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/7digital/node-checkout-kata.git"
+    "url": "git+ssh://git@github.com:msurekci/checkout-kata.git"
   },
-  "author": "7digital",
+  "author": "Mahmut Surekci",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/7digital/node-checkout-kata/issues"
+    "url": "https://github.com/msurekci/checkout-kata/issues"
   },
-  "homepage": "https://github.com/7digital/node-checkout-kata#readme"
+  "homepage": "https://github.com/msurekci/checkout-kata#readme"
 }
