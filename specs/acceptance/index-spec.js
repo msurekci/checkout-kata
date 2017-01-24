@@ -12,7 +12,7 @@ describe('Shopping cart', () => {
 
   testCases.forEach((testCase) => {
     it(`should return ${testCase.expected} when items purchased are ${testCase.input}`, () => {
-      checkout(testCase.input).should.eql(testCase.expected);
+      checkout.checkout(testCase.input).should.eql(testCase.expected);
     });
   });
 });
