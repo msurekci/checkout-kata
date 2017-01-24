@@ -1,6 +1,6 @@
 const should = require('should');
 
-const checkout = require('../../index');
+const shoppingCart = require('../../index');
 
 describe('Shopping cart', () => {
   testCases = [
@@ -12,7 +12,7 @@ describe('Shopping cart', () => {
 
   testCases.forEach((testCase) => {
     it(`should return ${testCase.expected} when items purchased are ${testCase.input}`, () => {
-      checkout.checkout(testCase.input).should.eql(testCase.expected);
+      shoppingCart.checkout(testCase.input).should.eql(testCase.expected);
     });
   });
 });
