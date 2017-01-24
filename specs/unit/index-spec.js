@@ -1,8 +1,8 @@
 const should = require('should');
 const sinon = require('sinon');
 
-const shoppingCart = require('../index');
-const priceCalculator = require('../src/price-calculator');
+const shoppingCart = require('../../index');
+const priceCalculator = require('../../src/price-calculator');
 
 describe('shoppingCart', () => {
   it('should log the price to the console', () => {
